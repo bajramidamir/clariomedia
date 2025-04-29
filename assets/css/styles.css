@@ -7,6 +7,34 @@
   --gradient: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%);
 }
 
+/* Language Switcher Styles */
+.language-switcher {
+  background: none;
+  border: none;
+  color: #64748b;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin: 0 0.25rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.language-switcher.active {
+  color: #2563eb;
+  background: rgba(37, 99, 235, 0.1);
+}
+
+.language-switcher:hover:not(.active) {
+  background: rgba(100, 116, 139, 0.1);
+}
+
+/* Ensure proper RTL support if needed */
+[lang="ar"] .hero-content,
+[lang="he"] .hero-content {
+  direction: rtl;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -45,11 +73,8 @@ header {
 }
 
 .logo {
-  font-size: 1.75rem;
-  font-weight: 700;
-  background: var(--gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  width: 150px;
+  height: 60px;
 }
 
 nav ul {
@@ -466,5 +491,51 @@ nav a:hover::after {
 
   .footer-content {
     text-align: center;
+  }
+}
+
+/* === Hamburger Menu Styles === */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    z-index: 1001;
+  }
+
+  nav#navbar {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  nav#navbar.active {
+    display: block;
+  }
+
+  nav#navbar ul {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  nav#navbar ul li {
+    text-align: center;
+  }
+
+  .container.header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="bs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="title">Clario Media</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="alternate" hreflang="bs" href="https://clariomedia.com/bs/" />
+    <link rel="alternate" hreflang="en" href="https://clariomedia.com/en/" />
+    <link rel="canonical" href="https://clariomedia.com/bs/" />
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+        <img
+          class="logo"
+          src="/assets/images/clario.png"
+          alt="Clario Media Logo"
+        />
+
+        <button id="hamburger" class="hamburger" aria-label="Toggle navigation">
+          ☰
+        </button>
+
+        <nav id="navbar">
+          <ul>
+            <li><a href="/about.html" data-i18n="nav.about">O nama</a></li>
+            <li>
+              <a href="/services.html" data-i18n="nav.services">Lokal SEO</a>
+            </li>
+            <li><a href="/contact.html" data-i18n="nav.contact">Kontakt</a></li>
+            <li>
+              <button class="language-switcher" data-lang="bs">BS</button>
+              <button class="language-switcher" data-lang="en">EN</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero container">
+        <div class="hero-content" data-aos="fade-right">
+          <h1>
+            <span class="hero-line">
+              <span data-i18n="hero.line1_part1"></span>
+              <span data-i18n="hero.earn"></span>
+            </span>
+            <span class="hero-line" data-i18n="hero.line2"></span>
+            <span class="hero-gradient" data-i18n="hero.line3"></span>
+          </h1>
+          <p class="hero-subtitle">
+            <span data-i18n="hero.subtitle_part1"></span>
+            <span class="text-highlight" data-i18n="hero.highlight"></span>
+          </p>
+
+          <div class="hero-cta">
+            <a
+              href="/kontakt.html"
+              class="btn btn-primary"
+              data-i18n="hero.cta"
+            >
+              Zakažite konsultaciju
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.1667 6L19 12M19 12L13.1667 18M19 12H5"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image" data-aos="fade-left">
+          <div class="image-wrapper">
+            <img
+              src="/assets/images/seo-illustration.jpg"
+              alt="SEO analitika"
+              loading="lazy"
+              data-i18n="alt.seo_image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="section-bg services-section" data-aos="fade-up">
+        <div class="container">
+          <h3 class="hero-gradient" data-i18n="services.title">
+            Šta mi zapravo radimo?
+          </h3>
+          <div class="services-grid">
+            <div class="service-box" data-aos="fade-up" data-aos-delay="100">
+              <h4 data-i18n="services.1.title">Više klikova</h4>
+              <p data-i18n="services.1.desc">
+                Ljudi vas lakše nađu na Google pretrazi.
+              </p>
+            </div>
+            <div class="service-box" data-aos="fade-up" data-aos-delay="200">
+              <h4 data-i18n="services.2.title">Više posjeta</h4>
+              <p data-i18n="services.2.desc">
+                Više saobraćaja na vašem sajtu — bez plaćenih reklama.
+              </p>
+            </div>
+            <div class="service-box" data-aos="fade-up" data-aos-delay="300">
+              <h4 data-i18n="services.3.title">Više prodaje</h4>
+              <p data-i18n="services.3.desc">
+                SEO koji donosi stvarne rezultate i nove klijente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results Section -->
+      <section class="results-section" data-aos="fade-up">
+        <div class="container">
+          <div class="results-grid">
+            <div class="result-item">
+              <h3>+150%</h3>
+              <p data-i18n="results.1">Povećan organski promet</p>
+            </div>
+            <div class="result-item">
+              <h3>+300</h3>
+              <p data-i18n="results.2">Zadovoljnih klijenata</p>
+            </div>
+            <div class="result-item">
+              <h3>10+</h3>
+              <p data-i18n="results.3">Godina iskustva</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta-section">
+        <div class="container cta-content">
+          <h2 data-i18n="cta.title">Spremni za rast?</h2>
+          <p data-i18n="cta.subtitle">
+            Zakažite besplatnu konsultaciju i dobijte personalizovan SEO plan za
+            vaš biznis
+          </p>
+          <a href="/contact.html" class="btn btn-large" data-i18n="cta.button"
+            >Započni sada</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container footer-content">
+        <div class="footer-column">
+          <h4 class="footer-logo">Clario Media</h4>
+          <p data-i18n="footer.tagline">
+            Digitalna agencija specijalizirana za SEO i digitalni rast
+          </p>
+        </div>
+        <div class="footer-column">
+          <h4 data-i18n="footer.links_title">Brzi linkovi</h4>
+          <ul>
+            <li><a href="/about.html" data-i18n="nav.about">O nama</a></li>
+            <li>
+              <a href="/services.html" data-i18n="nav.services">Local SEO</a>
+            </li>
+            <li><a href="/contact.html" data-i18n="nav.contact">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 data-i18n="footer.contact_title">Kontakt</h4>
+          <ul>
+            <li data-i18n="footer.email">Email: info@clariomedia.com</li>
+            <li data-i18n="footer.phone">Tel: +387 33 123 456</li>
+            <li data-i18n="footer.address">Adresa: Trg Djece Sarajeva 1</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          ©
+          <span data-i18n="footer.copyright"
+            >2025 Clario Media. Sva prava zadržana.</span
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/assets/js/i18n.js"></script>
+    <script>
+      AOS.init();
+      // Initialize translations
+      document.addEventListener("DOMContentLoaded", function () {
+        i18n.init();
+        const hamburger = document.getElementById("hamburger");
+        const navbar = document.getElementById("navbar");
+
+        hamburger.addEventListener("click", () => {
+          navbar.classList.toggle("active");
+        });
+      });
+    </script>
+  </body>
+</html>
