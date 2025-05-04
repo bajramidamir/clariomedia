@@ -32,8 +32,8 @@ const i18n = {
       "services.3.desc": "SEO koji donosi stvarne rezultate i nove klijente.",
 
       // Results
-      "results.1": "Povećan organski promet",
-      "results.2": "Zadovoljnih klijenata",
+      "results.1": "Posvećenost",
+      "results.2": "Kvalitetnih linkova",
       "results.3": "Godina iskustva",
 
       // CTA
@@ -47,10 +47,10 @@ const i18n = {
         "Digitalna agencija specijalizirana za SEO i digitalni rast",
       "footer.links_title": "Brzi linkovi",
       "footer.contact_title": "Kontakt",
-      "footer.email": "Email: info@clariomedia.com",
+      "footer.email": "Email: business@clariomedia.com",
       "footer.phone": "Tel: +387 66 679 260",
       "footer.address": "Adresa: Sarajevo, Kolodvorska 12",
-      "footer.copyright": "2025 Clario Media. Sva prava zadržana.",
+      "footer.copyright": "© 2025 Clario Media. Sva prava zadržana.",
 
       // About Hero
       "about.heroTitle":
@@ -85,7 +85,7 @@ const i18n = {
       "services.contact": "Kontakt",
       "services.localSeoForBusiness": "Local SEO za Vaš Biznis",
       "services.increaseVisibility":
-        "Da li ste znali da 62% prodaja iz svih industrija dolazi s Google pretrazivanja?",
+        "Da li ste znali da 62% prodaja iz svih industrija dolazi s Google pretraživanja?",
       "services.whatIsLocalSeo": "Šta je Local SEO?",
       "services.simpleExplanationForBusinessOwners":
         "Jednostavno objašnjenje za vlasnike biznisa",
@@ -105,7 +105,7 @@ const i18n = {
       "services.locationSpecificContent":
         "Kreiranje sadržaja vezanog za lokaciju (npr. 'Najbolja pizzeria u Banjoj Luci').",
       "services.whyYouNeedIt": "Zašto Vam je potreban?",
-      "services.moreLocalClients": "Više lokalnih klijenata",
+      "services.moreLocalClients": "Više klijenata",
       "services.easilyFindLocalServices":
         "Ljudi koji traže usluge u Vašoj blizini moći će Vas lakše pronaći.",
       "services.betterRoi": "Bolji ROI iz online marketinga",
@@ -128,13 +128,17 @@ const i18n = {
       "contact.fillOutForm":
         "Popunite formu ispod i naš tim će vam se javiti u najkraćem roku",
       "contact.yourName": "Vaše ime*",
+      "contact.enterYourName": "Ime i prezime",
       "contact.emailAddress": "Email adresa*",
+      "contact.enterYourEmail": "primjer@mail.ba",
       "contact.message": "Poruka*",
+      "contact.enterYourMessage":
+        "Zdravo! Želim da saznam više o vašim uslugama.",
       "contact.submitMessage": "Pošalji poruku",
       "contact.backToHome": "Nazad na početnu",
       "contact.orContactUsDirectly": "Ili nas kontaktirajte direktno:",
-      "contact.email": "Email:",
-      "contact.phone": "Telefon:",
+      "contact.email": "Email: business@clariomedia.com",
+      "contact.phone": "Telefon: +387 66 679 260",
     },
     en: {
       // Meta
@@ -167,8 +171,8 @@ const i18n = {
       "services.3.desc": "SEO that delivers real results and new clients.",
 
       // Results
-      "results.1": "Increased organic traffic",
-      "results.2": "Satisfied clients",
+      "results.1": "Dedication and commitment",
+      "results.2": "High-quality links",
       "results.3": "Years of experience",
 
       // CTA
@@ -199,7 +203,7 @@ const i18n = {
       // About Content
       "about.whoTitle": "Who are we?",
       "about.whoText":
-        "Clario Media was founded in 2025 by a team of experienced SEO specialists with over 6 years of experience in linkbuilding and digital marketing for multi-million dollar companies in 30+ different fields. Although we’re a relatively new agency, our team members have already left a mark on the regional SEO scene by working on the most demanding projects.",
+        "Clario Media was founded in 2025 by a team of experienced SEO specialists with over 6 years of experience in linkbuilding and digital marketing for multi-million dollar companies in 30+ different fields. Although we’re a relatively new agency, our team members have already left a mark on the worldwide SEO scene by working on the most demanding projects.",
 
       "about.approachTitle": "Our Approach",
       "about.approachText":
@@ -267,13 +271,17 @@ const i18n = {
       "contact.fillOutForm":
         "Fill out the form below and our team will get back to you as soon as possible",
       "contact.yourName": "Your name*",
+      "contact.enterYourName": "John Doe",
       "contact.emailAddress": "Email address*",
+      "contact.enterYourEmail": "example@mail.com",
       "contact.message": "Message*",
+      "contact.enterYourMessage":
+        "Hi! I'd like to know more about your services.",
       "contact.submitMessage": "Send message",
       "contact.backToHome": "Back to homepage",
       "contact.orContactUsDirectly": "Or contact us directly:",
-      "contact.email": "Email:",
-      "contact.phone": "Phone:",
+      "contact.email": "Email: business@clariomedia.com",
+      "contact.phone": "Phone: +387 66 679 260",
     },
   },
 

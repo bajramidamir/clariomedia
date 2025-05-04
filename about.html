@@ -12,15 +12,57 @@
     <link rel="alternate" hreflang="bs" href="https://clariomedia.com/bs/" />
     <link rel="alternate" hreflang="en" href="https://clariomedia.com/en/" />
     <link rel="canonical" href="https://clariomedia.com/bs/" />
+    <!-- Favicon and App Icons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/images/favicon-16x16.png"
+    />
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="/assets/images/site.webmanifest" />
+
+    <!-- PWA/Android support -->
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="" />
+    <link
+      rel="icon"
+      sizes="192x192"
+      href="/assets/images/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      sizes="512x512"
+      href="/assets/images/android-chrome-512x512.png"
+    />
+
+    <!-- Apple-specific -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="" />
   </head>
   <body>
     <header>
       <div class="container header">
-        <img
-          class="logo"
-          src="/assets/images/clario.png"
-          alt="Clario Media Logo"
-        />
+        <a href="/index.html">
+          <img
+            class="logo"
+            src="/assets/images/clario.png"
+            alt="Clario Media Logo"
+          />
+        </a>
 
         <button id="hamburger" class="hamburger" aria-label="Toggle navigation">
           ☰
@@ -32,7 +74,11 @@
             <li>
               <a href="/services.html" data-i18n="nav.services">Lokal SEO</a>
             </li>
-            <li><a href="/contact.html" data-i18n="nav.contact">Kontakt</a></li>
+            <li>
+              <a href="/contact.html" target="_blank" data-i18n="nav.contact"
+                >Kontakt</a
+              >
+            </li>
             <li>
               <button class="language-switcher" data-lang="bs">BS</button>
               <button class="language-switcher" data-lang="en">EN</button>
@@ -107,8 +153,8 @@
 
     <footer class="simple-footer">
       <div class="container">
-        <p data-i18n="footer.rights">
-          © 2025 Clario Media. Sva prava zadržana.
+        <p data-i18n="footer.copyright">
+          2025 Clario Media. Sva prava zadržana.
         </p>
       </div>
     </footer>
